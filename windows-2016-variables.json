@@ -1,0 +1,4 @@
+{
+    "winrm_username_env": "dav",
+    "winrm_password_env": "pa$$word01"
+}

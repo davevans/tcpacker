@@ -1,0 +1,16 @@
+{
+    "builders" : [
+        {
+            "type" : "amazon-ebs",
+            "region" : "ap-southeast-2",
+            "source_ami": "ami-06ce513624b435a22",
+            "instance_type": "t2.micro",
+            "ssh_username": "ec2-user",
+            "ami_name": "dav-ami",
+            "ami_description": "dav ami",
+            "tags": {
+                "role" : "testing"
+            }
+        }
+    ]
+}
